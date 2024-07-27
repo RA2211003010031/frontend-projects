@@ -12,8 +12,8 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 function moveButton(button) {
-    const maxX = 400;
-    const maxY = 400;
+    const maxX = 200;
+    const maxY = 200;
     const x = Math.random() * maxX;
     const y = Math.random() * maxY;
     gsap.to(button, { duration: 0.5, x: x, y: y, ease: "power2.inOut" });
